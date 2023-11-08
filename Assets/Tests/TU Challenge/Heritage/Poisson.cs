@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace TU_Challenge.Heritage
 {
-    public class Poisson 
+    public class Poisson : Animal
     {
-        public Poisson(string name) 
+        public Poisson(string name) : base(name) 
         {
+            _pattes = 0;
         }
 
-       
+        public override string Name => base.Name + " le poisson";
     }
 }
