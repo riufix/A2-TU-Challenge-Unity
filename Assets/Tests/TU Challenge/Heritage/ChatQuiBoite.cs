@@ -14,6 +14,9 @@ namespace TU_Challenge.Heritage
             _pattes = 3;
         }
 
-        
+        public override void EnterAnimalerie(Animalerie animalerie)
+        {
+            
+        }
     }
 }

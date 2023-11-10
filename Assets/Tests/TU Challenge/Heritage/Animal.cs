@@ -46,5 +46,10 @@ namespace TU_Challenge.Heritage
         {
             _fed = AnimalState.Fed;
         }
+
+        public virtual void EnterAnimalerie(Animalerie animalerie)
+        {
+            
+        }
     }
 }

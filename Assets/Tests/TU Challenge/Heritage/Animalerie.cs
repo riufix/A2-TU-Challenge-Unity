@@ -26,7 +26,7 @@ namespace TU_Challenge.Heritage
         {
             _zoo.Add(c);
             OnAddAnimal?.Invoke(c);
-            
+            c.EnterAnimalerie(this);
         }
 
         public bool Contains(Animal a)
